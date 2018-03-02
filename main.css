@@ -1,1 +1,90 @@
 /* styles here */
+nav {
+  background: white;
+}
+
+.container {
+  max-width: 968px;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  background: blue;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.nav-button {
+}
+
+header {
+  height: 400px;
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin: 0 0 30px;
+}
+
+.sign-up-button {
+  padding: 10px 25px;
+}
+
+form {
+  display: flex;
+}
+
+.sign-up-input {
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+}
+
+
+.services {
+  padding: 50px 0
+}
+
+.service-container {
+  display: flex;
+}
+
+.service {
+  flex: 1
+}
+
+.service-title {
+  text-align: center;
+}
+
+.service-desc {
+  text-align: center;
+  color: grey;
+}
+
+.product {
+  display: flex;
+}
+
+.product-right {
+  height: 400px;
+  background-image: url(bg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
